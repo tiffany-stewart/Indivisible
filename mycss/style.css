@@ -222,6 +222,7 @@ nav a:hover {
   width: 70px;
   padding-top: 12px;
   margin-left: 40%;
+
 }
 
 .col p {
@@ -249,4 +250,84 @@ nav a:hover {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/*----- contact section -----*/
+
+.contact {
+  height: 330px;
+  width: 100%;
+  background-color: #161616;
+}
+
+.contact h1 {
+  color: #fff;
+  font-weight: 100;
+  margin: 0;
+  float: right;
+  margin-top: -120px;
+  margin-right: 5px;
+}
+
+.contact input {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.contact input:first-of-type {
+  margin-top: 30px;
+}
+
+.contact textarea {
+  margin-left: 20px;
+}
+
+.contact button {
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 7px;
+  background-color: #fff;
+  color: #212121;
+  border: none;
+}
+
+/*----- footer ----- */
+
+footer {
+  height: 70px;
+}
+
+footer ul {
+  display: inline;
+
+}
+
+footer li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 35px;
+  padding-right: 20px;
+}
+
+footer a:hover {
+  color: #1b324f;
+}
+
+footer i {
+  font-size: 40px;
+}
+
+footer h3 {
+  float: right;
+  font-size: 13px;
+  margin-right: 20px;
+  padding-top: 10px;
+  font-weight: 300;
 }
