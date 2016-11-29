@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  background-color: #ededed;
 }
 
 video#bgVideo {
@@ -53,12 +54,13 @@ nav {
 
 nav ul {
   display: inline;
+  margin-left: 30%;
 }
 
 nav li {
   display: inline-block;
   text-decoration: none;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 
 nav a {
@@ -67,13 +69,20 @@ nav a {
   font-weight: 100;
 }
 
+nav a:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  transition: .5s;
+}
+
 /*---- block section ------*/
 
 #indivisible {
   position: relative;
-  margin-top: 140px;
+  margin-top: 150px;
   padding-left: 60px;
-  height: 100px;
+  height: 130px;
   background-color: #fff;
 }
 
@@ -81,6 +90,7 @@ nav a {
   font-weight: 100;
   text-align: right;
   padding-top: 30px;
+  padding-right: 15px;
 }
 
 #indivisible h2 {
@@ -88,4 +98,87 @@ nav a {
   text-align: right;
   margin-top: -20px;
   font-size: 25px;
+  padding-right: 15px;
+}
+
+/*------ block section ------*/
+
+.blockLeft {
+  height: 850px;
+  width: 50%;
+  background-color: #ededed;
+  float: left;
+  color: #212121;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.blockLeft h1 {
+  text-align: center;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.blockLeft img.book {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -120px;
+}
+
+.blockLeft img.desk {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -30px;
+}
+
+.blockRight {
+  height: 500px;
+  width: 50%;
+  background-color: #212121;
+  float: right;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.blockRight h1 {
+  text-align: center;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.blockRight p {
+  margin: auto;
+  text-align: right;
+  font-weight: 100;
+  width: 80%;
+  font-size: 13px;
+}
+
+/* ----- below black ----- */
+
+.belowBlack {
+  background-color: #ededed;
+  height: 350px;
+  width: 50%;
+  float: right;
+
+}
+
+.belowBlack p {
+  width: 80%;
+  margin: auto;
+  text-align: right;
+  padding-top: 80px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.belowBlack h1 {
+  font-weight: 100;
+  width: 80%;
+  text-align: right;
+  margin: auto;
+  padding-top: 65px;
+  font-size: 50px;
 }
