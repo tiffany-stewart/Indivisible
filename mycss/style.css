@@ -54,13 +54,13 @@ nav {
 
 nav ul {
   display: inline;
-  margin-left: 30%;
+  margin-left: 27%;
 }
 
 nav li {
   display: inline-block;
   text-decoration: none;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 nav a {
@@ -73,7 +73,7 @@ nav a:hover {
   border-bottom: 1px solid #fff;
   color: #fff;
   text-decoration: none;
-  transition: .5s;
+  transition: .1s;
 }
 
 /*---- block section ------*/
@@ -96,7 +96,7 @@ nav a:hover {
 #indivisible h2 {
   font-weight: 100;
   text-align: right;
-  margin-top: -20px;
+  margin-top: -15px;
   font-size: 25px;
   padding-right: 15px;
 }
@@ -120,14 +120,14 @@ nav a:hover {
 }
 
 .blockLeft img.book {
-  width: 80%;
-  margin-left: 10%;
+  width: 380px;
+  margin-left: 13%;
   margin-top: -120px;
 }
 
 .blockLeft img.desk {
-  width: 80%;
-  margin-left: 10%;
+  width: 380px;
+  margin-left: 13%;
   margin-top: -30px;
 }
 
@@ -179,6 +179,74 @@ nav a:hover {
   width: 80%;
   text-align: right;
   margin: auto;
-  padding-top: 65px;
+  padding-top: 45px;
   font-size: 50px;
+}
+
+
+/* ----- lifestyle section ----- */
+
+#lifestyleBgc {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0, 0.5)), url(../images/heavyclouds.jpg);
+  margin: auto;
+  background-size: cover;
+  height: 380px;
+  width: 100%;
+  clear: both;
+  background-attachment: fixed;
+}
+
+.lifestyle {
+  color: #fff;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col h1 {
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  padding-top: 12px;
+  margin-left: 40%;
+}
+
+.col p {
+  font-weight: 100;
+  text-align: center;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
